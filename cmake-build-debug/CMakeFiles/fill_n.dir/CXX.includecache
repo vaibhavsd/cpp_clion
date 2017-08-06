@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vaibhav/CLionProjects/practice_cplusplus/fill_n.cpp
+algorithm
+-
+vector
+-
+iostream
+-
+iterator
+-
+

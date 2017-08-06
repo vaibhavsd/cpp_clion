@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/template.dir/c_santa_cruz/template.cpp.o  -o template 

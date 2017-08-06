@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/magic_beans.dir/magic_beans.cpp.o  -o magic_beans 

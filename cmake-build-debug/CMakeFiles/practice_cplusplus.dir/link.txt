@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/practice_cplusplus.dir/main.cpp.o  -o practice_cplusplus 

@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="practice_cplusplus"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constructor">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/constructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 constructor"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="constructor/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/constructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 constructor/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="point_class">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/point_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 point_class"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="point_class/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/point_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 point_class/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static_cast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/static_cast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_cast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static_cast/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/static_cast" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_cast/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enum">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/enum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 enum"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enum/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/enum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 enum/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointers">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/pointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointers/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/pointers" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointers/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="special_for">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/special_for" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 special_for"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="special_for/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/special_for" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 special_for/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fun_while_loop">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/fun_while_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 fun_while_loop"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fun_while_loop/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/fun_while_loop" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 fun_while_loop/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_list">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/std_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_list"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_list/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/std_list" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 std_list/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iota_incrementer">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/iota_incrementer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 iota_incrementer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iota_incrementer/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/iota_incrementer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 iota_incrementer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fill_n">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/fill_n" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 fill_n"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fill_n/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/fill_n" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 fill_n/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="special_copy_vector">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/special_copy_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 special_copy_vector"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="special_copy_vector/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/special_copy_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 special_copy_vector/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input_output">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/input_output" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 input_output"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="input_output/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/input_output" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 input_output/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="practice_cplusplus">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/practice_cplusplus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 practice_cplusplus"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="practice_cplusplus/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/practice_cplusplus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 practice_cplusplus/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 template"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="template/fast">
+				<Option output="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/template" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 template/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/vaibhav/CLionProjects/practice_cplusplus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/c_santa_cruz/constructor.cpp">
+			<Option target="constructor"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/c_santa_cruz/enum.cpp">
+			<Option target="enum"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/c_santa_cruz/point_class.cpp">
+			<Option target="point_class"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/c_santa_cruz/static_cast.cpp">
+			<Option target="static_cast"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/c_santa_cruz/template.cpp">
+			<Option target="template"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/main.cpp">
+			<Option target="practice_cplusplus"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/pointers.cpp">
+			<Option target="pointers"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/fill_n.cpp">
+			<Option target="fill_n"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/fun_while_loop.cpp">
+			<Option target="fun_while_loop"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/input_output.cpp">
+			<Option target="input_output"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/iota_incrementer.cpp">
+			<Option target="iota_incrementer"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/special_copy_vector.cpp">
+			<Option target="special_copy_vector"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/special_for.cpp">
+			<Option target="special_for"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/stl/std_list.cpp">
+			<Option target="std_list"/>
+		</Unit>
+		<Unit filename="/home/vaibhav/CLionProjects/practice_cplusplus/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

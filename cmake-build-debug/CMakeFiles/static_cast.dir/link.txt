@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/static_cast.dir/c_santa_cruz/static_cast.cpp.o  -o static_cast 

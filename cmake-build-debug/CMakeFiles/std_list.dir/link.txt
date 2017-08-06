@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/std_list.dir/stl/std_list.cpp.o  -o std_list 

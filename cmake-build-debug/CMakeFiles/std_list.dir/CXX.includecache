@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vaibhav/CLionProjects/practice_cplusplus/std_list.cpp
+iostream
+-
+cstdio
+-
+algorithm
+-
+array
+-
+iterator
+-
+list
+-
+vector
+-
+
