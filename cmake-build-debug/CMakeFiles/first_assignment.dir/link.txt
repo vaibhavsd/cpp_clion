@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/first_assignment.dir/assignments/first_assignment.cpp.o  -o first_assignment 

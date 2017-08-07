@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/fun_while.dir/magic_beans.cpp.o  -o fun_while 

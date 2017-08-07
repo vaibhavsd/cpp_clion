@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/enum.dir/c_santa_cruz/enum.cpp.o  -o enum 

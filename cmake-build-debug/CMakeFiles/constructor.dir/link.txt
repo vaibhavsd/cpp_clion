@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/constructor.dir/c_santa_cruz/constructor.cpp.o  -o constructor 

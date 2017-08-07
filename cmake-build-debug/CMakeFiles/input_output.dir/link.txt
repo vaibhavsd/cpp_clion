@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/input_output.dir/stl/input_output.cpp.o  -o input_output 

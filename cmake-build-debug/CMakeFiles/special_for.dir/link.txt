@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/special_for.dir/stl/special_for.cpp.o  -o special_for 

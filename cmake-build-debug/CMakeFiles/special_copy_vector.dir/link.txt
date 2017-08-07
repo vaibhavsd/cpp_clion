@@ -1,1 +1,0 @@
-/usr/bin/c++   -g   CMakeFiles/special_copy_vector.dir/stl/special_copy_vector.cpp.o  -o special_copy_vector 
