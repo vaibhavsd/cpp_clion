@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named first_assignment
+
+# Build rule for target.
+first_assignment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 first_assignment
+.PHONY : first_assignment
+
+# fast build rule for target.
+first_assignment/fast:
+	$(MAKE) -f CMakeFiles/first_assignment.dir/build.make CMakeFiles/first_assignment.dir/build
+.PHONY : first_assignment/fast
+
+#=============================================================================
+# Target rules for targets named function_template
+
+# Build rule for target.
+function_template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 function_template
+.PHONY : function_template
+
+# fast build rule for target.
+function_template/fast:
+	$(MAKE) -f CMakeFiles/function_template.dir/build.make CMakeFiles/function_template.dir/build
+.PHONY : function_template/fast
+
+#=============================================================================
 # Target rules for targets named constructor
 
 # Build rule for target.
@@ -135,6 +161,19 @@ point_class: cmake_check_build_system
 point_class/fast:
 	$(MAKE) -f CMakeFiles/point_class.dir/build.make CMakeFiles/point_class.dir/build
 .PHONY : point_class/fast
+
+#=============================================================================
+# Target rules for targets named practice_cplusplus
+
+# Build rule for target.
+practice_cplusplus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 practice_cplusplus
+.PHONY : practice_cplusplus
+
+# fast build rule for target.
+practice_cplusplus/fast:
+	$(MAKE) -f CMakeFiles/practice_cplusplus.dir/build.make CMakeFiles/practice_cplusplus.dir/build
+.PHONY : practice_cplusplus/fast
 
 #=============================================================================
 # Target rules for targets named static_cast
@@ -266,31 +305,32 @@ input_output/fast:
 	$(MAKE) -f CMakeFiles/input_output.dir/build.make CMakeFiles/input_output.dir/build
 .PHONY : input_output/fast
 
-#=============================================================================
-# Target rules for targets named practice_cplusplus
+assignments/first_assignment.o: assignments/first_assignment.cpp.o
 
-# Build rule for target.
-practice_cplusplus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 practice_cplusplus
-.PHONY : practice_cplusplus
+.PHONY : assignments/first_assignment.o
 
-# fast build rule for target.
-practice_cplusplus/fast:
-	$(MAKE) -f CMakeFiles/practice_cplusplus.dir/build.make CMakeFiles/practice_cplusplus.dir/build
-.PHONY : practice_cplusplus/fast
+# target to build an object file
+assignments/first_assignment.cpp.o:
+	$(MAKE) -f CMakeFiles/first_assignment.dir/build.make CMakeFiles/first_assignment.dir/assignments/first_assignment.cpp.o
+.PHONY : assignments/first_assignment.cpp.o
 
-#=============================================================================
-# Target rules for targets named template
+assignments/first_assignment.i: assignments/first_assignment.cpp.i
 
-# Build rule for target.
-template: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 template
-.PHONY : template
+.PHONY : assignments/first_assignment.i
 
-# fast build rule for target.
-template/fast:
-	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/build
-.PHONY : template/fast
+# target to preprocess a source file
+assignments/first_assignment.cpp.i:
+	$(MAKE) -f CMakeFiles/first_assignment.dir/build.make CMakeFiles/first_assignment.dir/assignments/first_assignment.cpp.i
+.PHONY : assignments/first_assignment.cpp.i
+
+assignments/first_assignment.s: assignments/first_assignment.cpp.s
+
+.PHONY : assignments/first_assignment.s
+
+# target to generate assembly for a file
+assignments/first_assignment.cpp.s:
+	$(MAKE) -f CMakeFiles/first_assignment.dir/build.make CMakeFiles/first_assignment.dir/assignments/first_assignment.cpp.s
+.PHONY : assignments/first_assignment.cpp.s
 
 c_santa_cruz/constructor.o: c_santa_cruz/constructor.cpp.o
 
@@ -346,6 +386,33 @@ c_santa_cruz/enum.cpp.s:
 	$(MAKE) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/c_santa_cruz/enum.cpp.s
 .PHONY : c_santa_cruz/enum.cpp.s
 
+c_santa_cruz/function_template.o: c_santa_cruz/function_template.cpp.o
+
+.PHONY : c_santa_cruz/function_template.o
+
+# target to build an object file
+c_santa_cruz/function_template.cpp.o:
+	$(MAKE) -f CMakeFiles/function_template.dir/build.make CMakeFiles/function_template.dir/c_santa_cruz/function_template.cpp.o
+.PHONY : c_santa_cruz/function_template.cpp.o
+
+c_santa_cruz/function_template.i: c_santa_cruz/function_template.cpp.i
+
+.PHONY : c_santa_cruz/function_template.i
+
+# target to preprocess a source file
+c_santa_cruz/function_template.cpp.i:
+	$(MAKE) -f CMakeFiles/function_template.dir/build.make CMakeFiles/function_template.dir/c_santa_cruz/function_template.cpp.i
+.PHONY : c_santa_cruz/function_template.cpp.i
+
+c_santa_cruz/function_template.s: c_santa_cruz/function_template.cpp.s
+
+.PHONY : c_santa_cruz/function_template.s
+
+# target to generate assembly for a file
+c_santa_cruz/function_template.cpp.s:
+	$(MAKE) -f CMakeFiles/function_template.dir/build.make CMakeFiles/function_template.dir/c_santa_cruz/function_template.cpp.s
+.PHONY : c_santa_cruz/function_template.cpp.s
+
 c_santa_cruz/point_class.o: c_santa_cruz/point_class.cpp.o
 
 .PHONY : c_santa_cruz/point_class.o
@@ -399,33 +466,6 @@ c_santa_cruz/static_cast.s: c_santa_cruz/static_cast.cpp.s
 c_santa_cruz/static_cast.cpp.s:
 	$(MAKE) -f CMakeFiles/static_cast.dir/build.make CMakeFiles/static_cast.dir/c_santa_cruz/static_cast.cpp.s
 .PHONY : c_santa_cruz/static_cast.cpp.s
-
-c_santa_cruz/template.o: c_santa_cruz/template.cpp.o
-
-.PHONY : c_santa_cruz/template.o
-
-# target to build an object file
-c_santa_cruz/template.cpp.o:
-	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/c_santa_cruz/template.cpp.o
-.PHONY : c_santa_cruz/template.cpp.o
-
-c_santa_cruz/template.i: c_santa_cruz/template.cpp.i
-
-.PHONY : c_santa_cruz/template.i
-
-# target to preprocess a source file
-c_santa_cruz/template.cpp.i:
-	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/c_santa_cruz/template.cpp.i
-.PHONY : c_santa_cruz/template.cpp.i
-
-c_santa_cruz/template.s: c_santa_cruz/template.cpp.s
-
-.PHONY : c_santa_cruz/template.s
-
-# target to generate assembly for a file
-c_santa_cruz/template.cpp.s:
-	$(MAKE) -f CMakeFiles/template.dir/build.make CMakeFiles/template.dir/c_santa_cruz/template.cpp.s
-.PHONY : c_santa_cruz/template.cpp.s
 
 main.o: main.cpp.o
 
@@ -677,8 +717,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... first_assignment"
+	@echo "... function_template"
 	@echo "... constructor"
 	@echo "... point_class"
+	@echo "... edit_cache"
+	@echo "... practice_cplusplus"
 	@echo "... static_cast"
 	@echo "... enum"
 	@echo "... pointers"
@@ -689,24 +733,24 @@ help:
 	@echo "... fill_n"
 	@echo "... special_copy_vector"
 	@echo "... input_output"
-	@echo "... edit_cache"
-	@echo "... practice_cplusplus"
-	@echo "... template"
+	@echo "... assignments/first_assignment.o"
+	@echo "... assignments/first_assignment.i"
+	@echo "... assignments/first_assignment.s"
 	@echo "... c_santa_cruz/constructor.o"
 	@echo "... c_santa_cruz/constructor.i"
 	@echo "... c_santa_cruz/constructor.s"
 	@echo "... c_santa_cruz/enum.o"
 	@echo "... c_santa_cruz/enum.i"
 	@echo "... c_santa_cruz/enum.s"
+	@echo "... c_santa_cruz/function_template.o"
+	@echo "... c_santa_cruz/function_template.i"
+	@echo "... c_santa_cruz/function_template.s"
 	@echo "... c_santa_cruz/point_class.o"
 	@echo "... c_santa_cruz/point_class.i"
 	@echo "... c_santa_cruz/point_class.s"
 	@echo "... c_santa_cruz/static_cast.o"
 	@echo "... c_santa_cruz/static_cast.i"
 	@echo "... c_santa_cruz/static_cast.s"
-	@echo "... c_santa_cruz/template.o"
-	@echo "... c_santa_cruz/template.i"
-	@echo "... c_santa_cruz/template.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

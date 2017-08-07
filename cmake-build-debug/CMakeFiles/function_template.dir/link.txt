@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/function_template.dir/c_santa_cruz/function_template.cpp.o  -o function_template 
