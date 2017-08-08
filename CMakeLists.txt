@@ -25,3 +25,5 @@ add_executable(function_template c_santa_cruz/function_template.cpp)
 
 
 add_executable(first_assignment assignments/first_assignment.cpp)
+
+add_executable(tp c_santa_cruz/tp.cpp)
