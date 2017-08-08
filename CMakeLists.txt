@@ -27,3 +27,6 @@ add_executable(function_template c_santa_cruz/function_template.cpp)
 add_executable(first_assignment assignments/first_assignment.cpp)
 
 add_executable(tp c_santa_cruz/tp.cpp)
+add_executable(multi_dimensional_array_pointer c_santa_cruz/multi_dimensional_array_pointer.cpp)
+add_executable(graph_network c_santa_cruz/graph_network.cpp)
+add_executable(malloc c_santa_cruz/malloc.cpp)
