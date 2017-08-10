@@ -4,6 +4,10 @@
 
 #include <iostream>
 #include <ctime>
+#include <iterator>
+#include <algorithm>
+
+using namespace std;
 
 int main() {
 
@@ -32,12 +36,16 @@ int main() {
 
     // Creating a multi-dimensional array using C++
     int size= 6;
-    bool **graph;
-    graph = new bool* [size]; //Creates rows
+    int **graph;
+    graph = new int* [size]; //Creates rows
 
     for (int i=0; i< size; i++){
-        graph[i]= new bool [size]; //Creates columns
+        graph[i]= new int [size]; //Creates columns
     }
+
+    int k=3;
+    vector<int> vec;
+    copy_n(istream_iterator<int> (cin), k, back_inserter(vec));
 
     delete []graph;
     delete []array;
